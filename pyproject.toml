@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "daily-paper"
+version = "0.1.0"
+description = "daily-paper"
+authors = ["遥奕 <jibing.yjb@alibaba-inc.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+feedparser = "^6.0.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
